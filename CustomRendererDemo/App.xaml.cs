@@ -8,7 +8,7 @@ namespace CustomRendererDemo
         {
             InitializeComponent();
 
-            MainPage = new CustomRendererDemoPage();
+            MainPage = new NavigationPage(new View.CustomRendererDemoPage());
         }
 
         protected override void OnStart()

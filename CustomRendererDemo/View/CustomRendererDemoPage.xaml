@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomRendererDemo.View.CustomRendererDemoPage"
+             Padding="0, 20, 0, 0">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                Text="Custom Button"
+                Margin="10,0"
+                BorderColor="Black"
+                BorderWidth="5"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
